@@ -1,0 +1,269 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p{
+  font-size: 2.5vmin;
+  margin: 1vmin 0 1vmin 0;
+}
+
+#root{
+  background: linear-gradient(127deg, #3d296a, #c52a88 70.71%),
+              linear-gradient(217deg, #791258, #834497 70.71%),
+              linear-gradient(336deg, #a6378f, #684c9d 70.71%);
+
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  padding: 2.5vmin;
+  color: white;
+  font-size: 4.5vmin;
+  font-family: Cambria, Cochin, Georgia, Times, serif;
+  width: 100%;
+  text-align: center;
+  font-weight: 550;
+  margin: 2vmin 0 2vmin 0;
+}
+
+.App{
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main{
+  width: 75%;
+  align-self: center;
+  background-color: #684c9d;
+  padding: 2.5vmin;
+  margin: 7.5vmin;
+  margin-top: 0.5vmin;
+  box-shadow: 0 0 2.5vmin rgba(0, 0, 0, 0.5);
+  border-radius: 0.25vmin;
+  display: flex;
+  flex-direction: column;
+}
+
+.search{
+  display: flex;
+  justify-content: center;
+}
+
+.createSearch{
+    margin-top: 1vmin;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.createSearch h4{
+    font-size: 2.75vmin;
+    align-self: center;
+}
+
+.createSearch button{
+    width: 20%;
+    border: 0.25vmin double black;
+    border-radius: 5rem;
+    background: none;
+    background: white;  
+    color: black;
+}
+
+.createSearch button:hover{
+  background: #77ec537f; 
+}
+
+#search{
+  width: 75%;
+  border: 0.25vmin double black;
+  border-radius: 5vmin;
+  padding: 1vmin 0 1vmin 3vmin;
+  font-size: 3vmin;
+  background: white;
+}
+
+#search:hover{
+  background: rgb(175, 175, 175);
+}
+
+.new{
+  width: 95%;
+  border-radius: 1vmin;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  margin: 2vmin;
+}
+
+.heading{
+  margin-top: 1.5vmin;
+  display: flex;
+  width: 95%;
+  align-self: center;
+}
+
+h3{
+  font-size: 4vmin;
+  text-align: left;
+  margin: 1vmin;
+  color: white;
+}
+
+h4{
+  font-size: 3vmin;
+  color: black;
+  text-align: center;
+  margin: 1vmin;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border: 0.25vmin double black;
+  border-radius: 1vmin;
+  display: none;
+}
+
+form select,
+form input{
+  font-family: 'Times New Roman', Times, serif;
+  width: 90%;
+  color: black;
+  border: 0.25vmin solid #3d296a80;
+  border-radius: 0.5vmin;
+  padding: 0.75vmin;
+  font-size: 3vmin;
+  margin: 0.5vmin;
+  align-self: center;
+}
+
+#name{
+    margin-top: 2vmin;
+}
+
+form button{
+  align-self: center;
+  width: 20vmin;
+  font-size: 2vmin;
+  padding: 0.5vmin;
+  margin: 1vmin;
+  background-color: white;
+  border: 0.05vmin ridge rgb(70, 112, 73);
+  border-radius: 0.5vmin;
+  font-weight: 500;
+}
+
+form button:hover{
+    background-color: #77ec53e0;
+}
+
+details{
+  background-color: #684c9d;
+}
+
+.csv-controls{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.csv-controls input{
+  margin-top: 0;
+  align-self: self-start;
+  margin-left: 10vmin;
+  font-size: 2vmin;
+}
+
+input::file-selector-button {
+    color: white;
+    background: #007bff80;
+    padding: 0.5em;
+    border: 0.1px solid #007bff80;
+    border-radius: 1vmin;
+}
+
+input::file-selector-button:hover{
+    background-color: #0056b3;
+}
+
+.csv-controls button {
+  padding: 0.75vmin;
+  border: none;
+  border-radius: 1vmin;
+  font-size: 1.75vmin;
+  margin-right: 10vmin;
+  background-color: #007bff80;
+  border: 0.1px solid #007bffbe;
+  color: white;
+  cursor: pointer;
+}
+
+.csv-controls button:hover {
+  background-color: #0056b3;
+}
+
+.professional,
+.personal,
+.other{
+  font-size: 3.5vmin;
+  width: 95%;
+  background: white;
+  color: black;
+  align-self: center;
+  border: 0.25vmin double black;
+  border-radius: 1vmin;
+  margin: 1vmin;
+  padding: 1vmin 5vmin 1vmin 5vmin;
+}
+
+.contacts{
+  margin: 1vmin 0 1vmin 0;
+}
+
+.card{
+  border: 0.1vmin solid black;
+}
+
+#card{
+    margin: 3vmin;
+}
+
+#card #edit{
+  font-size: 2vmin;
+  margin: 0.5vmin;
+  margin-left: 0;
+  margin-top: 0;
+  padding: 0.5vmin;
+  background-color: #f1db12;
+  border-radius: 0.5vmin;
+}
+
+#card #edit:hover{
+  background-color: #d9c61f;
+}
+
+#card #delete{
+  font-size: 2vmin;
+  margin: 0.5vmin;
+  margin-top: 0;
+  padding: 0.5vmin;
+  background-color: #df3e4e;
+  border-radius: 0.5vmin;
+}
+
+#card #delete:hover{
+  background-color: #c92031;
+}
