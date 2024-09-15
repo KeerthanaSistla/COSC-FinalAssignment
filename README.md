@@ -1,8 +1,9 @@
-# React + Vite
+Problem Statement: The CBIT Open Source Community is developing a system to manage student information within the institute. Create a web application that allows administrators to manage student records efficiently, ensuring easy access to and management of student data.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Essential Features:
+CRUD Operations: Administrators can add, view, update, and delete student records, keeping information up-to-date.
+Search and Filter: Allow administrators to search and filter students by class, age, or performance, streamlining the management process.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Extra Credit:
+Report Generation: Provide the ability to generate reports on student performance, attendance, and other metrics.
+System Integration: Integrate with external systems (e.g., attendance tracking), enhancing the functionality of the student information system.
