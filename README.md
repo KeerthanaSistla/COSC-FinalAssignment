@@ -1,9 +1,9 @@
-Problem Statement: The CBIT Open Source Community is developing a system to manage student information within the institute. Create a web application that allows administrators to manage student records efficiently, ensuring easy access to and management of student data.
+Problem Statement: The CBIT Open Source Community needs a system to manage contacts for networking and collaboration. Develop a web-based contact management application that allows users to store and organize personal and professional contacts, fostering better communication within the community.
 
 Essential Features:
-CRUD Operations: Administrators can add, view, update, and delete student records, keeping information up-to-date.
-Search and Filter: Allow administrators to search and filter students by class, age, or performance, streamlining the management process.
+CRUD Operations: Users can add, view, update, and delete contact entries, maintaining an organized contact list.
+Categorization: Allow users to categorize contacts (personal, professional, etc.), making it easier to manage relationships.
 
 Extra Credit:
-Report Generation: Provide the ability to generate reports on student performance, attendance, and other metrics.
-System Integration: Integrate with external systems (e.g., attendance tracking), enhancing the functionality of the student information system.
+Import/Export: Provide options to import and export contacts via CSV, facilitating easy data transfer.
+Search Functionality: Implement a robust search feature to quickly find specific contacts, enhancing usability.
